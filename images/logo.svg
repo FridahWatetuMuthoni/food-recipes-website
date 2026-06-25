@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80" width="260" height="80">
+  <!-- Background plate/circle -->
+  <circle cx="38" cy="40" r="34" fill="#2c1a0e" opacity="0.08"/>
+  <circle cx="38" cy="40" r="28" fill="#d4631a" opacity="0.15"/>
+
+  <!-- Fork -->
+  <g transform="translate(22, 12)">
+    <!-- Fork tines -->
+    <line x1="8" y1="2" x2="8" y2="14" stroke="#d4631a" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="11" y1="2" x2="11" y2="14" stroke="#d4631a" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="14" y1="2" x2="14" y2="14" stroke="#d4631a" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Fork base curve -->
+    <path d="M8 14 Q8 18 11 18 Q14 18 14 14" fill="none" stroke="#d4631a" stroke-width="1.8"/>
+    <!-- Fork handle -->
+    <line x1="11" y1="18" x2="11" y2="54" stroke="#d4631a" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Spoon -->
+  <g transform="translate(42, 10)">
+    <!-- Spoon bowl -->
+    <ellipse cx="8" cy="10" rx="6" ry="8" fill="#e8a034" opacity="0.9"/>
+    <!-- Spoon handle -->
+    <line x1="8" y1="18" x2="8" y2="56" stroke="#e8a034" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Steam lines above fork/spoon -->
+  <path d="M32 6 Q34 3 32 0" fill="none" stroke="#d4631a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M38 4 Q40 1 38 -2" fill="none" stroke="#e8a034" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Text: "Food" -->
+  <text x="84" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="bold" fill="#2c1a0e" letter-spacing="1">Food</text>
+
+  <!-- Decorative line -->
+  <line x1="84" y1="38" x2="240" y2="38" stroke="#d4631a" stroke-width="1" opacity="0.4"/>
+
+  <!-- Text: "Recipes" -->
+  <text x="84" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="#d4631a" letter-spacing="2">Recipes</text>
+
+  <!-- Small dot accent -->
+  <circle cx="76" cy="45" r="3" fill="#e8a034"/>
+</svg>

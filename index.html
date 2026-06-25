@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cake Delights Web Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div>
+        <div class="logo-header">
+          <div id="logo">
+            <a href="index.html"><img src="images/logo.svg" alt="Logo" /></a>
+          </div>
+          <section id="source-search">
+            Source: This site is based on the
+            <a
+              href="https://freewebsitetemplates.com/preview/cakewebsitetemplate/contact.html"
+              target="_blank"
+            >
+              Original Cake Template</a
+            >
+          </section>
+          <div>
+            <div>
+              <a href="signup.html">My Account</a>
+              <a href="index.html">Help</a>
+              <a href="signin.html" class="last">Sign in</a>
+            </div>
+            <form action="#">
+              <input type="text" id="search" maxlength="30" />
+              <input type="submit" value="Search" id="searchbtn" />
+            </form>
+          </div>
+        </div>
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="product.html">Recipes</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div id="section">
+          <a href="index.html" class="hero-image">
+            <img src="images/hero-image.webp" alt="Image" />
+          </a>
+          <ul class="side-menu">
+            <li class="selected"><a href="index.html">One-Pot Wonders</a></li>
+            <li><a href="index.html">Chicken Dinners</a></li>
+            <li><a href="index.html">World Cuisine</a></li>
+            <li><a href="index.html">Portuguese Recipes</a></li>
+            <li><a href="index.html">Spicy & Peri-Peri</a></li>
+            <li><a href="index.html">Rice & Grain Bowls</a></li>
+            <li><a href="index.html">Grill & BBQ</a></li>
+            <li><a href="index.html">Sides & Sauces</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <div class="home">
+        <div class="aside">
+          <h1>Welcome to our site</h1>
+          <p>
+            A recipe is a blueprint for balancing ingredients, technique, and
+            heat to create a perfect dish. Whether it’s a quick one-pot wonder
+            or a slow-simmered stew, a great recipe harmonizes flavors through
+            the careful layering of aromatics like onions, garlic, and spices.
+          </p>
+          <p>
+            True cooking is about mastering the equilibrium of salt, fat, acid,
+            and heat to achieve a rich "umami" profile. For the best results,
+            season your dish throughout the process and practice mise en
+            place—preparing all ingredients in advance—to ensure a smooth and
+            controlled cooking experience.
+          </p>
+        </div>
+        <div class="section">
+          <ul class="recipe-grid">
+            <li>
+              <a href="index.html"
+                ><img src="images/food-1.jpg" alt="Image"
+              /></a>
+            </li>
+            <li>
+              <a href="index.html"
+                ><img src="images/food-2.jpg" alt="Image"
+              /></a>
+            </li>
+            <li>
+              <a href="index.html"
+                ><img src="images/food-3.jpg" alt="Image"
+              /></a>
+            </li>
+            <li>
+              <a href="index.html"
+                ><img src="images/food-4.jpg" alt="Image"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="spice-container">
+      <div id="spice-tool">
+        <h3>🌶️ Find Your Spice Match</h3>
+        <p>Enter your name and a heat level (1-10) to find your sauce.</p>
+        <input
+          type="text"
+          id="user-name"
+          placeholder="Your Name"
+          class="tool-input"
+        />
+        <input
+          type="number"
+          id="heat-level"
+          min="1"
+          max="10"
+          placeholder="Level (1-10)"
+          class="tool-input"
+        />
+        <button onclick="calculateSpice()" class="tool-btn">Match Me</button>
+        <div id="spice-result"></div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <!-- Top Footer: Sign up and Main Story -->
+      <div class="home">
+        <div class="footer-container">
+          <!-- CTA Section -->
+          <div class="aside">
+            <div class="signup-box">
+              <b>Too <span>BUSY</span> to shop?</b>
+              <p>
+                We deliver fresh, pre-portioned recipe ingredients right to your
+                doorstep. Cook like a chef, without the grocery line.
+              </p>
+              <a href="signin.html" class="signup-btn">Get Started Free</a>
+            </div>
+
+            <div class="connect">
+              <span>Join the community</span>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Pinterest</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Story Section -->
+          <div class="main-story">
+            <h3><a href="index.html">The Secret to the Perfect Char.</a></h3>
+            <p>
+              Authentic Peri-Peri isn't just a sauce; it's a centuries-old
+              tradition of fire and flavor. We combine hand-picked bird's eye
+              chilies with fresh lemon zest and cold-pressed olive oil to create
+              a marinade that doesn't just sit on the meat—it transforms it.
+            </p>
+            <p>
+              By utilizing a high-heat sear followed by a slow-roast, we ensure
+              every recipe results in that signature smoky crust and succulent
+              interior.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Section: Modern Recipe Cards -->
+      <div id="featured">
+        <h2 class="featured-heading">Culinary Guides & Tips</h2>
+        <ul>
+          <li class="recipe-card">
+            <a href="index.html"><img src="images/food-1.jpg" alt="Herbs" /></a>
+            <h2><a href="index.html">Mastering Fresh Aromatics</a></h2>
+            <p>
+              Learn which herbs stand up to high heat and which should be added
+              only as a final garnish.
+              <a href="index.html" class="readmore">read more</a>
+            </p>
+          </li>
+          <li class="recipe-card">
+            <a href="index.html"
+              ><img src="images/food-2.jpg" alt="Italian"
+            /></a>
+            <h2><a href="index.html">The Foundation of Umami</a></h2>
+            <p>
+              From balsamic reductions to roasted garlic bases, discover how to
+              build deep flavors from scratch.
+              <a href="index.html" class="readmore">read more</a>
+            </p>
+          </li>
+          <li class="recipe-card">
+            <a href="index.html"><img src="images/food-3.jpg" alt="Diet" /></a>
+            <h2><a href="index.html">Power Bowls: Protein & Grain</a></h2>
+            <p>
+              Build the perfect meal prep bowl with charred veggies, quinoa, and
+              our lemon-herb chicken.
+              <a href="index.html" class="readmore">read more</a>
+            </p>
+          </li>
+          <li class="recipe-card">
+            <a href="index.html"><img src="images/food-4.jpg" alt="Sides" /></a>
+            <h2><a href="index.html">Signature Savory Sides</a></h2>
+            <p>
+              The ultimate recipes for spicy chicken, grilled corn, and creamy
+              Peri-Peri dipping sauces.
+              <a href="index.html" class="readmore">read more</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Bottom Navigation -->
+      <div id="navigation">
+        <div class="nav-container">
+          <ul>
+            <li class="first"><a href="index.html">help</a></li>
+            <li><a href="index.html">about our kitchen</a></li>
+            <li><a href="index.html">chef talk</a></li>
+            <li><a href="index.html">developers</a></li>
+            <li><a href="index.html">privacy policy</a></li>
+            <li><a href="index.html">terms of use</a></li>
+          </ul>
+          <p>Copyright &copy; 2024 Savory Recipes. All rights reserved.</p>
+          <p class="student-info">
+            Developed by: <strong>[YOUR NAME HERE]</strong> | Student ID:
+            <strong>[YOUR ID HERE]</strong>
+          </p>
+
+          <div class="template-source">
+            Source: This site is based on the
+            <a
+              href="https://freewebsitetemplates.com/preview/cakewebsitetemplate/contact.html"
+              target="_blank"
+              >Original Cake Template</a
+            >.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
