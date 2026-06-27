@@ -2,16 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Sign In - Cake Delights Web Template</title>
+    <title>Sign In - Savory Recipes</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
     <div id="header">
       <div>
-        <div>
+        <div class="logo-header">
           <div id="logo">
-            <a href="index.html"><img src="images/logo.gif" alt="Logo" /></a>
+            <a href="index.html"><img src="images/logo.svg" alt="Logo" /></a>
           </div>
+          <section id="source-search">
+            Source: This site is based on the
+            <a
+              href="https://freewebsitetemplates.com/preview/cakewebsitetemplate/index.html"
+              target="_blank"
+            >
+              Original Cake Template</a
+            >
+          </section>
           <div>
             <div>
               <a href="signup.html">My Account</a>
@@ -20,22 +29,32 @@
             </div>
             <form action="#">
               <input type="text" id="search" maxlength="30" />
-              <input type="submit" value="" id="searchbtn" />
+              <input type="submit" value="Search" id="searchbtn" />
             </form>
           </div>
         </div>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="product.html">The Pastry shop</a></li>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="product.html">Recipes</a></li>
           <li><a href="about.html">About us</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
-        <div class="section">
-          <a href="index.html"
-            ><img src="images/wedding-cupcakes-small.jpg" alt="Image"
-          /></a>
+        <div id="section">
+          <a href="index.html" class="hero-image">
+            <img src="images/hero-image.webp" alt="Image" />
+          </a>
+          <ul class="side-menu">
+            <li class="selected"><a href="index.html">One-Pot Wonders</a></li>
+            <li><a href="index.html">Chicken Dinners</a></li>
+            <li><a href="index.html">World Cuisine</a></li>
+            <li><a href="index.html">Portuguese Recipes</a></li>
+            <li><a href="index.html">Spicy & Peri-Peri</a></li>
+            <li><a href="index.html">Rice & Grain Bowls</a></li>
+            <li><a href="index.html">Grill & BBQ</a></li>
+            <li><a href="index.html">Sides & Sauces</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -71,106 +90,119 @@
       </div>
     </div>
     <div id="footer">
-      <div class="section">
-        <div>
+      <!-- Top Footer: Sign up and Main Story -->
+      <div class="home">
+        <div class="footer-container">
+          <!-- CTA Section -->
           <div class="aside">
-            <div>
-              <div>
-                <b>Too <span>BUSY</span> to shop?</b>
-                <a href="signin.html">Sign up for free</a>
-                <p>and we&#39;ll deliver it on your doorstep</p>
-              </div>
+            <div class="signup-box">
+              <b>Too <span>BUSY</span> to shop?</b>
+              <p>
+                We deliver fresh, pre-portioned recipe ingredients right to your
+                doorstep. Cook like a chef, without the grocery line.
+              </p>
+              <a href="signin.html" class="signup-btn">Get Started Free</a>
+            </div>
+
+            <div class="connect">
+              <span>Join the community</span>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Pinterest</a></li>
+              </ul>
             </div>
           </div>
-          <div class="connect">
-            <span>Follow Us</span>
-            <ul>
-              <li>
-                <a
-                  href="http://facebook.com/freewebsitetemplates"
-                  target="_blank"
-                  class="facebook"
-                  >Facebook</a
-                >
-              </li>
-              <li>
-                <a
-                  href="http://twitter.com/fwtemplates"
-                  target="_blank"
-                  class="twitter"
-                  >Twitter</a
-                >
-              </li>
-              <li><a href="#" class="subscribe">Subscribe</a></li>
-              <li>
-                <a
-                  href="http://www.flickr.com/freewebsitetemplates/"
-                  target="_blank"
-                  class="flicker"
-                  >Flicker</a
-                >
-              </li>
-            </ul>
+
+          <!-- Story Section -->
+          <div class="main-story">
+            <h3><a href="index.html">The Secret to the Perfect Char.</a></h3>
+            <p>
+              Authentic Peri-Peri isn't just a sauce; it's a centuries-old
+              tradition of fire and flavor. We combine hand-picked bird's eye
+              chilies with fresh lemon zest and cold-pressed olive oil to create
+              a marinade that doesn't just sit on the meat—it transforms it.
+            </p>
+            <p>
+              By utilizing a high-heat sear followed by a slow-roast, we ensure
+              every recipe results in that signature smoky crust and succulent
+              interior.
+            </p>
           </div>
         </div>
       </div>
+
+      <!-- Featured Section: Modern Recipe Cards -->
       <div id="featured">
+        <h2 class="featured-heading">Culinary Guides & Tips</h2>
         <ul>
-          <li class="first">
-            <a href="index.html"
-              ><img src="images/fruit-cake.jpg" alt="Image"
-            /></a>
-            <h2><a href="index.html">Tips on how to preserve</a></h2>
+          <li class="recipe-card">
+            <a href="index.html"><img src="images/food-1.jpg" alt="Herbs" /></a>
+            <h2><a href="index.html">Mastering Fresh Aromatics</a></h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adispiscing elit, sed
-              diam nonummy nibh euismod tincidunt ut laoreet.
+              Learn which herbs stand up to high heat and which should be added
+              only as a final garnish.
               <a href="index.html" class="readmore">read more</a>
             </p>
           </li>
-          <li>
+          <li class="recipe-card">
             <a href="index.html"
-              ><img src="images/italian.jpg" alt="Image"
+              ><img src="images/food-2.jpg" alt="Italian"
             /></a>
-            <h2><a href="index.html">Menu of the day: Italian</a></h2>
+            <h2><a href="index.html">The Foundation of Umami</a></h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adispiscing elit, sed
-              diam nonummy nibh euismod tincidunt ut laoreet.
+              From balsamic reductions to roasted garlic bases, discover how to
+              build deep flavors from scratch.
               <a href="index.html" class="readmore">read more</a>
             </p>
           </li>
-          <li>
-            <a href="index.html"><img src="images/fruit.jpg" alt="Image" /></a>
-            <h2><a href="index.html">Fruit menu for your diet</a></h2>
+          <li class="recipe-card">
+            <a href="index.html"><img src="images/food-3.jpg" alt="Diet" /></a>
+            <h2><a href="index.html">Power Bowls: Protein & Grain</a></h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adispiscing elit, sed
-              diam nonummy nibh euismod tincidunt ut laoreet.
+              Build the perfect meal prep bowl with charred veggies, quinoa, and
+              our lemon-herb chicken.
               <a href="index.html" class="readmore">read more</a>
             </p>
           </li>
-          <li>
-            <a href="index.html"
-              ><img src="images/desserts.jpg" alt="Image"
-            /></a>
-            <h2><a href="index.html">Desserts for every occassion</a></h2>
+          <li class="recipe-card">
+            <a href="index.html"><img src="images/food-4.jpg" alt="Sides" /></a>
+            <h2><a href="index.html">Signature Savory Sides</a></h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adispiscing elit, sed
-              diam nonummy nibh euismod tincidunt ut laoreet.
+              The ultimate recipes for spicy chicken, grilled corn, and creamy
+              Peri-Peri dipping sauces.
               <a href="index.html" class="readmore">read more</a>
             </p>
           </li>
         </ul>
       </div>
+
+      <!-- Bottom Navigation -->
       <div id="navigation">
-        <div>
+        <div class="nav-container">
           <ul>
             <li class="first"><a href="index.html">help</a></li>
-            <li><a href="index.html">about cake delight</a></li>
-            <li><a href="index.html">cake delight talk</a></li>
+            <li><a href="index.html">about our kitchen</a></li>
+            <li><a href="index.html">chef talk</a></li>
             <li><a href="index.html">developers</a></li>
             <li><a href="index.html">privacy policy</a></li>
-            <li><a href="index.html">terms of use(updated 10/15/08)</a></li>
+            <li><a href="index.html">terms of use</a></li>
           </ul>
-          <p>Copyright &copy; 2006-2008 cake delight All rights reserved</p>
+          <p>Copyright &copy; 2024 Savory Recipes. All rights reserved.</p>
+          <p class="student-info">
+            Developed by: <strong>Kuria Catherine</strong> | Student ID:
+            <strong>25314027</strong>
+          </p>
+
+          <div class="template-source">
+            Source: This site is based on the
+            <a
+              href="https://freewebsitetemplates.com/preview/cakewebsitetemplate/contact.html"
+              target="_blank"
+              >Original Cake Template</a
+            >.
+          </div>
         </div>
       </div>
     </div>
